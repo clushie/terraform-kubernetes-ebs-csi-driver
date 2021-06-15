@@ -1,8 +1,7 @@
-aws {
-  required_version = ">= 0.12.6"
+terraform {
+  required_version = ">= 0.15.0"
 
   required_providers {
     kubernetes = ">= 1.11.4"
-    terraform  = "~> 3.40.0"
   }
 }
